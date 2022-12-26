@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    width: 1440px;
+    height: 1046px;
+    background: #FFFFFF;
+    padding: 91px 124px 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    width: 100%;
+    height: 93px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 55px;
+    padding-bottom: 10px;
+    line-height: 56px;
+}
+
+.main {
+    width: 100%;
+    height: 508px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 684px;
+    height: 508px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    padding-top: 18px;
+    padding-bottom: 94px;
+}
+
+.img-1 {
+    width: 366px;
+    height: 508x;
+    padding-top: 42px;
+    position: relative;
+}
+
+.photo-1 {
+    width: 314px;
+    height: 315px;
+    background: url('https://s3-alpha-sig.figma.com/img/700f/a5d1/2fd4df2196094d27a25913b781083a43?Expires=1673222400&Signature=NJnxQ8pIrAIxb4toWybuO0de-ajc8RLVn46LOxlwX0d09mVLEKe1mmCiZChZj~L2X5ckhmjHuGthLjbHXck8hcqgWbZjB2vWPkf5uy0ArEYhO2RBuCYczPljBKSd0Rtwk5tY4OBsruC9m~CFeJmXiBzjsFmw2JAST77DibBFkM4v2jkdZupl-pf-lBhkQe4i7QQNB-GCxaGApaRzmRX6VtoJtbxyDTX-Qy6KRDk87ikqwl0mlMb2~r~vW38A6Q5ofrXEDhIvFPFJ~sj4ZqIQYFTfDiU6~1hxVOXhTBRx4BWXstnX9xoeYJpQasv0gpWcZtQgwyjpqYVB7jkX7TK~oQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin: 0 26px;
+    z-index: 1;
+}
+
+.ellipse-1 {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    top: 65%;
+    border-radius: 45%;
+    background: #EFEFEF;
+}
+
+.footer {
+    width: 100%;
+    height: 233px;
+    display: flex;
+}
+
+.img-2 {
+    width: 232px;
+    height: 233px;
+    position: relative;
+}
+
+.photo-2 {
+    width: 232px;
+    height: 203px;
+    background-image: url('https://s3-alpha-sig.figma.com/img/f1e5/6721/d2a2f70911544c4cdaee91da5d81cd91?Expires=1673222400&Signature=N~n0Fg3DkZoaoW5SllEejP4oZC4EhusViF7FEbrgFj8dJMewclJKMUrojUe86LLyR6f5rMtj5qWmBZVLrm--souFqJmIjBjBBBz0Db1MWxGnAz-s~gE-FygJ6QtyPveZG~cp1IXlLtinM7UXFL8pjonXalRiShu41alRU6JWa3WmaSGm0vXt86s8FAmp2EUC6ee2yKnyLbOLRd52pZbVUPWsnJNe6EwkUa7EZZp6krGKG-7RPhgkxbfxnyxewZEXKysWXuSEv6Z99J8Kyvr~ahAouvr0R9O7gzqoh2IUYqszxozK5a8OOw7JZ0hqHRPtWImhT9neDD-hypPbb0UTMg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.ellipse-2 {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    top: 78%;
+    left: 33px;
+    border-radius: 45%;
+    background: #EFEFEF;
+}
+
+.f-text {
+    width: 200px;
+    height: 233px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 132px;
+}
+
+.f-text h3 {
+    width: 150px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.f-text p {
+    width: 150px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+@media (min-width:830px) and (max-width:1399px) {
+    .container {
+        width: 834px;
+        height: 633px;
+        padding: 56px 72px 180px;
+        justify-content: flex-start;
+    }
+
+    .title {
+        width: 100%;
+        height: 54px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .main {
+        width: 100%;
+        height: 298px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info {
+        width: 384px;
+        height: 298px;
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 11px;
+        padding-bottom: 70px;
+    }
+
+    .img-1 {
+        width: 212px;
+        height: 298px;
+        padding: 50px 15px;
+    }
+
+    .photo-1 {
+        width: 182px;
+        height: 183px;
+        left: 0;
+    }
+
+    .ellipse-1 {
+        width: 212px;
+        height: 35px;
+        top: 72%;
+        left: 0;
+    }
+
+    .footer {
+        height: 150px;
+        padding: 10px 0;
+        justify-content: flex-start;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .f-text {
+        width: 140px;
+        height: 60px;
+        padding-left: 0;
+    }
+
+    .f-text h3 {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .f-text p {
+        font-size: 11px;
+        line-height: 14px;
+    }
+}
+
+@media (min-width:375px) and (max-width:829px) {
+    .container {
+        width: 375px;
+        height: 776px;
+        padding: 56px 32px 56px 36px;
+        justify-content: flex-start;
+    }
+
+    .title {
+        width: 100%;
+        height: 44px;
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .main {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .info {
+        width: 100%;
+        height: 220px;
+        font-size: 12px;
+        line-height: 18px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+
+    .img-1 {
+        width: 172px;
+        height: 166px;
+        padding: 0;
+    }
+
+    .photo-1 {
+        width: 156px;
+        height: 155px;
+        margin: 0 8px;
+        top: 0;
+        left: 0;
+    }
+
+    .ellipse-1 {
+        width: 171px;
+        height: 23px;
+        top: 87%;
+    }
+
+    .footer {
+        height: 190px;
+        padding: 20px 0;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .f-text {
+        width: 120px;
+        height: 80px;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+
+    .f-text h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .f-text p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
